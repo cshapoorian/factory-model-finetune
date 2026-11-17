@@ -1,5 +1,7 @@
 line-length = 100
 target-version = "py312"
+# Read-only reference copies of the factory's code live here; they are not this project's code.
+extend-exclude = [".factory"]
 
 [lint]
 select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
